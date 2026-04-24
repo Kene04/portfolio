@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    border: lightgray solid 1px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    font-weight: bold;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.hero {
+    font-size: 6vw;
+    margin-left: 130px;
+}
+
+.hero-subtitle {
+    margin-top: -60px;
+    margin-left: 9vw;
+}
+
+.about {
+    margin-top: 70px;
+    margin-left: 45vw;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.pro1 img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.pro2 img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.dv, .mv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #EEDEC5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 150px;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #D4C1A9;
+    scale: 1.05;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 14px;
+    height: 100px;
+    background-color: gray;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero-subtitle {
+        margin-top: 30px;
+        
+    }
+}
